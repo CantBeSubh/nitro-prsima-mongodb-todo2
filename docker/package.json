@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "prepare": "nitropack prepare",
+    "dev": "nitropack dev",
+    "build": "nitropack build",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@clerk/clerk-sdk-node": "^4.12.2",
+    "@clerk/types": "^3.49.0",
+    "@prisma/client": "^5.1.1",
+    "nitropack": "latest"
+  },
+  "devDependencies": {
+    "prisma": "^5.1.1"
+  }
+}
